@@ -86,7 +86,7 @@ const faqs = [
 
 // ─── COMPONENT ───────────────────────────────────────────────────────────────
 export default function ContactPage() {
-  const { t, lang } = useApp()
+  const { lang } = useApp()
   const [formData, setFormData] = useState({ name: '', email: '', subject: '', message: '' })
   const [submitted, setSubmitted] = useState(false)
   const [sending, setSending] = useState(false)
